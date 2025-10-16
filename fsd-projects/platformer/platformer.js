@@ -47,8 +47,8 @@ createCollectable( "diamond", 700,500
 createCannon("right",350,1500)
 createCannon("left",500
   ,500)
-  createCannon("top",600, 300)
-  createCannon("top",1000, 300)
+  createCannon("top",600, 500)
+  createCannon("top",1000, 500)
     
     
     //////////////////////////////////
