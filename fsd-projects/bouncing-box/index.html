@@ -81,8 +81,9 @@ var positionX = 0
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-          moveBoxTo(205)
-          positionX=positionX+10
+          
+          positionX = positionX + 10
+          moveBoxTo(positionX)
 
         
 
@@ -96,8 +97,8 @@ var positionX = 0
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
-
+        function handleBoxClick() {positionX=0
+changeBoxText(0)
 
 
 
