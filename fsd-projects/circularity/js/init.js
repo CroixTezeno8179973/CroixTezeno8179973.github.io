@@ -98,6 +98,11 @@ game.checkCirclePosition(circles[ 4 ])
                physikz.updatePosition(circles[i]);
 
 
+               game.checkCirclePosition(circles[i]);
+
+}
+
+
 }
             
         }
