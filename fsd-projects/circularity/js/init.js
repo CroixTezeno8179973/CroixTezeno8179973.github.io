@@ -105,7 +105,7 @@ game.checkCirclePosition(circles[ 4 ])
 
 }
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
